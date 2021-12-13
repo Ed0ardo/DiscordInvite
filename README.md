@@ -1,6 +1,6 @@
 # Discord Invite Custom
 
-A dynamic template to have a unique invitation page to your discord server!
+A dynamic template to have a unique invitation page to your Discord server!
 
 ---
 
