@@ -35,7 +35,7 @@ You can test the it on [THIS SITE](https://ed0.it/freetime)!
 
 - Go to line 1 of **script.js** and replace _"https://discord.com/api/guilds/1234/widget.json"_ with the link you just copied
 
-- Edit lines 3, 32 and 38 of **index.html** with your server data:
+- Edit lines of **index.html** with your server data:
 
 ```html
 <title>Server Name</title>
