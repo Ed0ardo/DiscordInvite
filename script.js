@@ -1,24 +1,5 @@
 widgetURL = "https://discord.com/api/guilds/1234/widget.json";
 
-function agentHas(keyword) {
-  return navigator.userAgent.toLowerCase().search(keyword.toLowerCase()) > -1;
-}
-
-function isEdge() {
-  return agentHas("Edg");
-}
-
-function setEdge() {
-  var contents = document.getElementsByClassName("card--content");
-  Array.from(contents).forEach((cont) => {
-    cont.classList.add("cEdge");
-  });
-  var plays = document.getElementsByClassName("playing");
-  Array.from(plays).forEach((play) => {
-    play.classList.add("pEdge");
-  });
-}
-
 function card(e, val, rand) {
   e += '<div class="card" style="--duration:' + rand + 's">';
   e += '  <div class="card--icon">';
@@ -67,7 +48,3 @@ $.getJSON(widgetURL, function (data) {
     }
   }
 });
-
-if (isEdge()) {
-  setEdge();
-}

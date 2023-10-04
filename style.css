@@ -643,7 +643,7 @@ main.main .overlay .link {
   border-radius: 16px;
   position: relative;
   overflow: hidden;
-  display: flex;
+  display: flex !important;
   align-items: center;
   z-index: 1;
   margin: 32px 16px;
@@ -699,11 +699,6 @@ main.main .overlay .link {
   height: 100%;
 }
 
-.cEdge {
-  top: -150px;
-  left: 150px;
-}
-
 .card .card--content .name {
   height: 50%;
   display: flex;
@@ -720,10 +715,6 @@ main.main .overlay .link {
 
 .card .card--content .playing {
   height: 50%;
-}
-
-.pEdge {
-  margin-top: 10px;
 }
 
 .card .card--content .playing span {
